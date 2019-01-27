@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC90670A21FDF3AC00723E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90670921FDF3AC00723E43 /* AppDelegate.swift */; };
+		EC90670C21FDF3AC00723E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90670B21FDF3AC00723E43 /* ViewController.swift */; };
+		EC90670F21FDF3AC00723E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC90670D21FDF3AC00723E43 /* Main.storyboard */; };
+		EC90671121FDF3AE00723E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC90671021FDF3AE00723E43 /* Assets.xcassets */; };
+		EC90671421FDF3AE00723E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC90671221FDF3AE00723E43 /* LaunchScreen.storyboard */; };
+		EC90671F21FDF3AE00723E43 /* BeatifulGirlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90671E21FDF3AE00723E43 /* BeatifulGirlTests.swift */; };
+		EC90672A21FDF3AE00723E43 /* BeatifulGirlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90672921FDF3AE00723E43 /* BeatifulGirlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC90671B21FDF3AE00723E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9066FE21FDF3AC00723E43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC90670521FDF3AC00723E43;
+			remoteInfo = BeatifulGirl;
+		};
+		EC90672621FDF3AE00723E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9066FE21FDF3AC00723E43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC90670521FDF3AC00723E43;
+			remoteInfo = BeatifulGirl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC90670621FDF3AC00723E43 /* BeatifulGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatifulGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC90670921FDF3AC00723E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC90670B21FDF3AC00723E43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC90670E21FDF3AC00723E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC90671021FDF3AE00723E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC90671321FDF3AE00723E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC90671521FDF3AE00723E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC90671A21FDF3AE00723E43 /* BeatifulGirlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatifulGirlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC90671E21FDF3AE00723E43 /* BeatifulGirlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatifulGirlTests.swift; sourceTree = "<group>"; };
+		EC90672021FDF3AE00723E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC90672521FDF3AE00723E43 /* BeatifulGirlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatifulGirlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC90672921FDF3AE00723E43 /* BeatifulGirlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatifulGirlUITests.swift; sourceTree = "<group>"; };
+		EC90672B21FDF3AE00723E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC90670321FDF3AC00723E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90671721FDF3AE00723E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90672221FDF3AE00723E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9066FD21FDF3AC00723E43 = {
+			isa = PBXGroup;
+			children = (
+				EC90670821FDF3AC00723E43 /* BeatifulGirl */,
+				EC90671D21FDF3AE00723E43 /* BeatifulGirlTests */,
+				EC90672821FDF3AE00723E43 /* BeatifulGirlUITests */,
+				EC90670721FDF3AC00723E43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC90670721FDF3AC00723E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC90670621FDF3AC00723E43 /* BeatifulGirl.app */,
+				EC90671A21FDF3AE00723E43 /* BeatifulGirlTests.xctest */,
+				EC90672521FDF3AE00723E43 /* BeatifulGirlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC90670821FDF3AC00723E43 /* BeatifulGirl */ = {
+			isa = PBXGroup;
+			children = (
+				EC90670921FDF3AC00723E43 /* AppDelegate.swift */,
+				EC90670B21FDF3AC00723E43 /* ViewController.swift */,
+				EC90670D21FDF3AC00723E43 /* Main.storyboard */,
+				EC90671021FDF3AE00723E43 /* Assets.xcassets */,
+				EC90671221FDF3AE00723E43 /* LaunchScreen.storyboard */,
+				EC90671521FDF3AE00723E43 /* Info.plist */,
+			);
+			path = BeatifulGirl;
+			sourceTree = "<group>";
+		};
+		EC90671D21FDF3AE00723E43 /* BeatifulGirlTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC90671E21FDF3AE00723E43 /* BeatifulGirlTests.swift */,
+				EC90672021FDF3AE00723E43 /* Info.plist */,
+			);
+			path = BeatifulGirlTests;
+			sourceTree = "<group>";
+		};
+		EC90672821FDF3AE00723E43 /* BeatifulGirlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC90672921FDF3AE00723E43 /* BeatifulGirlUITests.swift */,
+				EC90672B21FDF3AE00723E43 /* Info.plist */,
+			);
+			path = BeatifulGirlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC90670521FDF3AC00723E43 /* BeatifulGirl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC90672E21FDF3AE00723E43 /* Build configuration list for PBXNativeTarget "BeatifulGirl" */;
+			buildPhases = (
+				EC90670221FDF3AC00723E43 /* Sources */,
+				EC90670321FDF3AC00723E43 /* Frameworks */,
+				EC90670421FDF3AC00723E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatifulGirl;
+			productName = BeatifulGirl;
+			productReference = EC90670621FDF3AC00723E43 /* BeatifulGirl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC90671921FDF3AE00723E43 /* BeatifulGirlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC90673121FDF3AE00723E43 /* Build configuration list for PBXNativeTarget "BeatifulGirlTests" */;
+			buildPhases = (
+				EC90671621FDF3AE00723E43 /* Sources */,
+				EC90671721FDF3AE00723E43 /* Frameworks */,
+				EC90671821FDF3AE00723E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC90671C21FDF3AE00723E43 /* PBXTargetDependency */,
+			);
+			name = BeatifulGirlTests;
+			productName = BeatifulGirlTests;
+			productReference = EC90671A21FDF3AE00723E43 /* BeatifulGirlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC90672421FDF3AE00723E43 /* BeatifulGirlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC90673421FDF3AE00723E43 /* Build configuration list for PBXNativeTarget "BeatifulGirlUITests" */;
+			buildPhases = (
+				EC90672121FDF3AE00723E43 /* Sources */,
+				EC90672221FDF3AE00723E43 /* Frameworks */,
+				EC90672321FDF3AE00723E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC90672721FDF3AE00723E43 /* PBXTargetDependency */,
+			);
+			name = BeatifulGirlUITests;
+			productName = BeatifulGirlUITests;
+			productReference = EC90672521FDF3AE00723E43 /* BeatifulGirlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9066FE21FDF3AC00723E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Emrys;
+				TargetAttributes = {
+					EC90670521FDF3AC00723E43 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EC90671921FDF3AE00723E43 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EC90670521FDF3AC00723E43;
+					};
+					EC90672421FDF3AE00723E43 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EC90670521FDF3AC00723E43;
+					};
+				};
+			};
+			buildConfigurationList = EC90670121FDF3AC00723E43 /* Build configuration list for PBXProject "BeatifulGirl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9066FD21FDF3AC00723E43;
+			productRefGroup = EC90670721FDF3AC00723E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC90670521FDF3AC00723E43 /* BeatifulGirl */,
+				EC90671921FDF3AE00723E43 /* BeatifulGirlTests */,
+				EC90672421FDF3AE00723E43 /* BeatifulGirlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC90670421FDF3AC00723E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90671421FDF3AE00723E43 /* LaunchScreen.storyboard in Resources */,
+				EC90671121FDF3AE00723E43 /* Assets.xcassets in Resources */,
+				EC90670F21FDF3AC00723E43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90671821FDF3AE00723E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90672321FDF3AE00723E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC90670221FDF3AC00723E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90670C21FDF3AC00723E43 /* ViewController.swift in Sources */,
+				EC90670A21FDF3AC00723E43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90671621FDF3AE00723E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90671F21FDF3AE00723E43 /* BeatifulGirlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90672121FDF3AE00723E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90672A21FDF3AE00723E43 /* BeatifulGirlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC90671C21FDF3AE00723E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC90670521FDF3AC00723E43 /* BeatifulGirl */;
+			targetProxy = EC90671B21FDF3AE00723E43 /* PBXContainerItemProxy */;
+		};
+		EC90672721FDF3AE00723E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC90670521FDF3AC00723E43 /* BeatifulGirl */;
+			targetProxy = EC90672621FDF3AE00723E43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC90670D21FDF3AC00723E43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC90670E21FDF3AC00723E43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC90671221FDF3AE00723E43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC90671321FDF3AE00723E43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC90672C21FDF3AE00723E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC90672D21FDF3AE00723E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC90672F21FDF3AE00723E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeatifulGirl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeatifulGirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC90673021FDF3AE00723E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeatifulGirl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeatifulGirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC90673221FDF3AE00723E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeatifulGirlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeatifulGirlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatifulGirl.app/BeatifulGirl";
+			};
+			name = Debug;
+		};
+		EC90673321FDF3AE00723E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeatifulGirlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeatifulGirlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatifulGirl.app/BeatifulGirl";
+			};
+			name = Release;
+		};
+		EC90673521FDF3AE00723E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeatifulGirlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeatifulGirlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeatifulGirl;
+			};
+			name = Debug;
+		};
+		EC90673621FDF3AE00723E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeatifulGirlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeatifulGirlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeatifulGirl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC90670121FDF3AC00723E43 /* Build configuration list for PBXProject "BeatifulGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC90672C21FDF3AE00723E43 /* Debug */,
+				EC90672D21FDF3AE00723E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC90672E21FDF3AE00723E43 /* Build configuration list for PBXNativeTarget "BeatifulGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC90672F21FDF3AE00723E43 /* Debug */,
+				EC90673021FDF3AE00723E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC90673121FDF3AE00723E43 /* Build configuration list for PBXNativeTarget "BeatifulGirlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC90673221FDF3AE00723E43 /* Debug */,
+				EC90673321FDF3AE00723E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC90673421FDF3AE00723E43 /* Build configuration list for PBXNativeTarget "BeatifulGirlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC90673521FDF3AE00723E43 /* Debug */,
+				EC90673621FDF3AE00723E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC9066FE21FDF3AC00723E43 /* Project object */;
+}
