@@ -14,6 +14,8 @@
 		EC90671421FDF3AE00723E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC90671221FDF3AE00723E43 /* LaunchScreen.storyboard */; };
 		EC90671F21FDF3AE00723E43 /* BeatifulGirlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90671E21FDF3AE00723E43 /* BeatifulGirlTests.swift */; };
 		EC90672A21FDF3AE00723E43 /* BeatifulGirlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90672921FDF3AE00723E43 /* BeatifulGirlUITests.swift */; };
+		EC90673821FDFC7600723E43 /* ViewControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90673721FDFC7600723E43 /* ViewControlExtension.swift */; };
+		EC90673A21FDFFBF00723E43 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90673921FDFFBF00723E43 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EC90672521FDF3AE00723E43 /* BeatifulGirlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatifulGirlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC90672921FDF3AE00723E43 /* BeatifulGirlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatifulGirlUITests.swift; sourceTree = "<group>"; };
 		EC90672B21FDF3AE00723E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC90673721FDFC7600723E43 /* ViewControlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlExtension.swift; sourceTree = "<group>"; };
+		EC90673921FDFFBF00723E43 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				EC90671021FDF3AE00723E43 /* Assets.xcassets */,
 				EC90671221FDF3AE00723E43 /* LaunchScreen.storyboard */,
 				EC90671521FDF3AE00723E43 /* Info.plist */,
+				EC90673721FDFC7600723E43 /* ViewControlExtension.swift */,
+				EC90673921FDFFBF00723E43 /* ImageViewController.swift */,
 			);
 			path = BeatifulGirl;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC90670C21FDF3AC00723E43 /* ViewController.swift in Sources */,
+				EC90673821FDFC7600723E43 /* ViewControlExtension.swift in Sources */,
+				EC90673A21FDFFBF00723E43 /* ImageViewController.swift in Sources */,
 				EC90670A21FDF3AC00723E43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
