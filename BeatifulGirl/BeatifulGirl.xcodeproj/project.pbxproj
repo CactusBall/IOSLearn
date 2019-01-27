@@ -16,6 +16,7 @@
 		EC90672A21FDF3AE00723E43 /* BeatifulGirlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90672921FDF3AE00723E43 /* BeatifulGirlUITests.swift */; };
 		EC90673821FDFC7600723E43 /* ViewControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90673721FDFC7600723E43 /* ViewControlExtension.swift */; };
 		EC90673A21FDFFBF00723E43 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90673921FDFFBF00723E43 /* ImageViewController.swift */; };
+		EC90673C21FE09A100723E43 /* ImageViewControllerxtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90673B21FE09A100723E43 /* ImageViewControllerxtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EC90672B21FDF3AE00723E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC90673721FDFC7600723E43 /* ViewControlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlExtension.swift; sourceTree = "<group>"; };
 		EC90673921FDFFBF00723E43 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		EC90673B21FE09A100723E43 /* ImageViewControllerxtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewControllerxtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				EC90671521FDF3AE00723E43 /* Info.plist */,
 				EC90673721FDFC7600723E43 /* ViewControlExtension.swift */,
 				EC90673921FDFFBF00723E43 /* ImageViewController.swift */,
+				EC90673B21FE09A100723E43 /* ImageViewControllerxtension.swift */,
 			);
 			path = BeatifulGirl;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC90670C21FDF3AC00723E43 /* ViewController.swift in Sources */,
+				EC90673C21FE09A100723E43 /* ImageViewControllerxtension.swift in Sources */,
 				EC90673821FDFC7600723E43 /* ViewControlExtension.swift in Sources */,
 				EC90673A21FDFFBF00723E43 /* ImageViewController.swift in Sources */,
 				EC90670A21FDF3AC00723E43 /* AppDelegate.swift in Sources */,
