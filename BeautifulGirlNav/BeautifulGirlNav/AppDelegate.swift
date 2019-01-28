@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  BeautifulGirlNav
+//  BeatifulGirl
 //
-//  Created by Emrys on 2019/1/28.
+//  Created by Emrys on 2019/1/27.
 //  Copyright © 2019 Emrys. All rights reserved.
 //
 

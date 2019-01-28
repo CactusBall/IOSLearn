@@ -14,6 +14,9 @@
 		EC1CDCDB21FF503F00FD5495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1CDCD921FF503F00FD5495 /* LaunchScreen.storyboard */; };
 		EC1CDCE621FF503F00FD5495 /* BeautifulGirlNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CDCE521FF503F00FD5495 /* BeautifulGirlNavTests.swift */; };
 		EC1CDCF121FF503F00FD5495 /* BeautifulGirlNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CDCF021FF503F00FD5495 /* BeautifulGirlNavUITests.swift */; };
+		EC1CDD0121FF52C800FD5495 /* ImageViewControllerxtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CDCFE21FF52C800FD5495 /* ImageViewControllerxtension.swift */; };
+		EC1CDD0221FF52C800FD5495 /* ViewControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CDCFF21FF52C800FD5495 /* ViewControlExtension.swift */; };
+		EC1CDD0321FF52C800FD5495 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CDD0021FF52C800FD5495 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		EC1CDCEC21FF503F00FD5495 /* BeautifulGirlNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulGirlNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1CDCF021FF503F00FD5495 /* BeautifulGirlNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulGirlNavUITests.swift; sourceTree = "<group>"; };
 		EC1CDCF221FF503F00FD5495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1CDCFE21FF52C800FD5495 /* ImageViewControllerxtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewControllerxtension.swift; sourceTree = "<group>"; };
+		EC1CDCFF21FF52C800FD5495 /* ViewControlExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControlExtension.swift; sourceTree = "<group>"; };
+		EC1CDD0021FF52C800FD5495 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		EC1CDCCF21FF503D00FD5495 /* BeautifulGirlNav */ = {
 			isa = PBXGroup;
 			children = (
+				EC1CDD0021FF52C800FD5495 /* ImageViewController.swift */,
+				EC1CDCFE21FF52C800FD5495 /* ImageViewControllerxtension.swift */,
+				EC1CDCFF21FF52C800FD5495 /* ViewControlExtension.swift */,
 				EC1CDCD021FF503D00FD5495 /* AppDelegate.swift */,
 				EC1CDCD221FF503D00FD5495 /* ViewController.swift */,
 				EC1CDCD421FF503D00FD5495 /* Main.storyboard */,
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1CDD0121FF52C800FD5495 /* ImageViewControllerxtension.swift in Sources */,
 				EC1CDCD321FF503D00FD5495 /* ViewController.swift in Sources */,
+				EC1CDD0321FF52C800FD5495 /* ImageViewController.swift in Sources */,
+				EC1CDD0221FF52C800FD5495 /* ViewControlExtension.swift in Sources */,
 				EC1CDCD121FF503D00FD5495 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
