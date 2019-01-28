@@ -34,7 +34,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="确定"/>
                                 <connections>
-                                    <segue destination="fjc-6D-VkO" kind="show" identifier="goToImage" id="UTr-NI-O5j"/>
+                                    <segue destination="fjc-6D-VkO" kind="show" id="041-mH-Zjf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -66,6 +66,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="zCa-Lt-3ot"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="S2w-ai-WbM">
+                        <barButtonItem key="rightBarButtonItem" title="分享" id="9cY-tp-qS2">
+                            <connections>
+                                <action selector="share:" destination="fjc-6D-VkO" id="crq-jA-xQH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="image" destination="FYw-Q4-XqF" id="IAc-36-8Z1"/>
                     </connections>
