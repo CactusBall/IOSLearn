@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1CDCD121FF503D00FD5495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CDCD021FF503D00FD5495 /* AppDelegate.swift */; };
+		EC1CDCD321FF503D00FD5495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CDCD221FF503D00FD5495 /* ViewController.swift */; };
+		EC1CDCD621FF503D00FD5495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1CDCD421FF503D00FD5495 /* Main.storyboard */; };
+		EC1CDCD821FF503F00FD5495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1CDCD721FF503F00FD5495 /* Assets.xcassets */; };
+		EC1CDCDB21FF503F00FD5495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1CDCD921FF503F00FD5495 /* LaunchScreen.storyboard */; };
+		EC1CDCE621FF503F00FD5495 /* BeautifulGirlNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CDCE521FF503F00FD5495 /* BeautifulGirlNavTests.swift */; };
+		EC1CDCF121FF503F00FD5495 /* BeautifulGirlNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CDCF021FF503F00FD5495 /* BeautifulGirlNavUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1CDCE221FF503F00FD5495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1CDCC521FF503D00FD5495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1CDCCC21FF503D00FD5495;
+			remoteInfo = BeautifulGirlNav;
+		};
+		EC1CDCED21FF503F00FD5495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1CDCC521FF503D00FD5495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1CDCCC21FF503D00FD5495;
+			remoteInfo = BeautifulGirlNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1CDCCD21FF503D00FD5495 /* BeautifulGirlNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulGirlNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1CDCD021FF503D00FD5495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1CDCD221FF503D00FD5495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1CDCD521FF503D00FD5495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1CDCD721FF503F00FD5495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1CDCDA21FF503F00FD5495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1CDCDC21FF503F00FD5495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1CDCE121FF503F00FD5495 /* BeautifulGirlNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulGirlNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1CDCE521FF503F00FD5495 /* BeautifulGirlNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulGirlNavTests.swift; sourceTree = "<group>"; };
+		EC1CDCE721FF503F00FD5495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1CDCEC21FF503F00FD5495 /* BeautifulGirlNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulGirlNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1CDCF021FF503F00FD5495 /* BeautifulGirlNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulGirlNavUITests.swift; sourceTree = "<group>"; };
+		EC1CDCF221FF503F00FD5495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1CDCCA21FF503D00FD5495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CDCDE21FF503F00FD5495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CDCE921FF503F00FD5495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1CDCC421FF503D00FD5495 = {
+			isa = PBXGroup;
+			children = (
+				EC1CDCCF21FF503D00FD5495 /* BeautifulGirlNav */,
+				EC1CDCE421FF503F00FD5495 /* BeautifulGirlNavTests */,
+				EC1CDCEF21FF503F00FD5495 /* BeautifulGirlNavUITests */,
+				EC1CDCCE21FF503D00FD5495 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1CDCCE21FF503D00FD5495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CDCCD21FF503D00FD5495 /* BeautifulGirlNav.app */,
+				EC1CDCE121FF503F00FD5495 /* BeautifulGirlNavTests.xctest */,
+				EC1CDCEC21FF503F00FD5495 /* BeautifulGirlNavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1CDCCF21FF503D00FD5495 /* BeautifulGirlNav */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CDCD021FF503D00FD5495 /* AppDelegate.swift */,
+				EC1CDCD221FF503D00FD5495 /* ViewController.swift */,
+				EC1CDCD421FF503D00FD5495 /* Main.storyboard */,
+				EC1CDCD721FF503F00FD5495 /* Assets.xcassets */,
+				EC1CDCD921FF503F00FD5495 /* LaunchScreen.storyboard */,
+				EC1CDCDC21FF503F00FD5495 /* Info.plist */,
+			);
+			path = BeautifulGirlNav;
+			sourceTree = "<group>";
+		};
+		EC1CDCE421FF503F00FD5495 /* BeautifulGirlNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CDCE521FF503F00FD5495 /* BeautifulGirlNavTests.swift */,
+				EC1CDCE721FF503F00FD5495 /* Info.plist */,
+			);
+			path = BeautifulGirlNavTests;
+			sourceTree = "<group>";
+		};
+		EC1CDCEF21FF503F00FD5495 /* BeautifulGirlNavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CDCF021FF503F00FD5495 /* BeautifulGirlNavUITests.swift */,
+				EC1CDCF221FF503F00FD5495 /* Info.plist */,
+			);
+			path = BeautifulGirlNavUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1CDCCC21FF503D00FD5495 /* BeautifulGirlNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1CDCF521FF503F00FD5495 /* Build configuration list for PBXNativeTarget "BeautifulGirlNav" */;
+			buildPhases = (
+				EC1CDCC921FF503D00FD5495 /* Sources */,
+				EC1CDCCA21FF503D00FD5495 /* Frameworks */,
+				EC1CDCCB21FF503D00FD5495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautifulGirlNav;
+			productName = BeautifulGirlNav;
+			productReference = EC1CDCCD21FF503D00FD5495 /* BeautifulGirlNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1CDCE021FF503F00FD5495 /* BeautifulGirlNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1CDCF821FF503F00FD5495 /* Build configuration list for PBXNativeTarget "BeautifulGirlNavTests" */;
+			buildPhases = (
+				EC1CDCDD21FF503F00FD5495 /* Sources */,
+				EC1CDCDE21FF503F00FD5495 /* Frameworks */,
+				EC1CDCDF21FF503F00FD5495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1CDCE321FF503F00FD5495 /* PBXTargetDependency */,
+			);
+			name = BeautifulGirlNavTests;
+			productName = BeautifulGirlNavTests;
+			productReference = EC1CDCE121FF503F00FD5495 /* BeautifulGirlNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1CDCEB21FF503F00FD5495 /* BeautifulGirlNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1CDCFB21FF503F00FD5495 /* Build configuration list for PBXNativeTarget "BeautifulGirlNavUITests" */;
+			buildPhases = (
+				EC1CDCE821FF503F00FD5495 /* Sources */,
+				EC1CDCE921FF503F00FD5495 /* Frameworks */,
+				EC1CDCEA21FF503F00FD5495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1CDCEE21FF503F00FD5495 /* PBXTargetDependency */,
+			);
+			name = BeautifulGirlNavUITests;
+			productName = BeautifulGirlNavUITests;
+			productReference = EC1CDCEC21FF503F00FD5495 /* BeautifulGirlNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1CDCC521FF503D00FD5495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Emrys;
+				TargetAttributes = {
+					EC1CDCCC21FF503D00FD5495 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EC1CDCE021FF503F00FD5495 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EC1CDCCC21FF503D00FD5495;
+					};
+					EC1CDCEB21FF503F00FD5495 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EC1CDCCC21FF503D00FD5495;
+					};
+				};
+			};
+			buildConfigurationList = EC1CDCC821FF503D00FD5495 /* Build configuration list for PBXProject "BeautifulGirlNav" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1CDCC421FF503D00FD5495;
+			productRefGroup = EC1CDCCE21FF503D00FD5495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1CDCCC21FF503D00FD5495 /* BeautifulGirlNav */,
+				EC1CDCE021FF503F00FD5495 /* BeautifulGirlNavTests */,
+				EC1CDCEB21FF503F00FD5495 /* BeautifulGirlNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1CDCCB21FF503D00FD5495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1CDCDB21FF503F00FD5495 /* LaunchScreen.storyboard in Resources */,
+				EC1CDCD821FF503F00FD5495 /* Assets.xcassets in Resources */,
+				EC1CDCD621FF503D00FD5495 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CDCDF21FF503F00FD5495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CDCEA21FF503F00FD5495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1CDCC921FF503D00FD5495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1CDCD321FF503D00FD5495 /* ViewController.swift in Sources */,
+				EC1CDCD121FF503D00FD5495 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CDCDD21FF503F00FD5495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1CDCE621FF503F00FD5495 /* BeautifulGirlNavTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CDCE821FF503F00FD5495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1CDCF121FF503F00FD5495 /* BeautifulGirlNavUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1CDCE321FF503F00FD5495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1CDCCC21FF503D00FD5495 /* BeautifulGirlNav */;
+			targetProxy = EC1CDCE221FF503F00FD5495 /* PBXContainerItemProxy */;
+		};
+		EC1CDCEE21FF503F00FD5495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1CDCCC21FF503D00FD5495 /* BeautifulGirlNav */;
+			targetProxy = EC1CDCED21FF503F00FD5495 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1CDCD421FF503D00FD5495 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1CDCD521FF503D00FD5495 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1CDCD921FF503F00FD5495 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1CDCDA21FF503F00FD5495 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1CDCF321FF503F00FD5495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC1CDCF421FF503F00FD5495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1CDCF621FF503F00FD5495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeautifulGirlNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeautifulGirlNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1CDCF721FF503F00FD5495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeautifulGirlNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeautifulGirlNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC1CDCF921FF503F00FD5495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeautifulGirlNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeautifulGirlNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautifulGirlNav.app/BeautifulGirlNav";
+			};
+			name = Debug;
+		};
+		EC1CDCFA21FF503F00FD5495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeautifulGirlNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeautifulGirlNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautifulGirlNav.app/BeautifulGirlNav";
+			};
+			name = Release;
+		};
+		EC1CDCFC21FF503F00FD5495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeautifulGirlNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeautifulGirlNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeautifulGirlNav;
+			};
+			name = Debug;
+		};
+		EC1CDCFD21FF503F00FD5495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				INFOPLIST_FILE = BeautifulGirlNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrys.BeautifulGirlNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeautifulGirlNav;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1CDCC821FF503D00FD5495 /* Build configuration list for PBXProject "BeautifulGirlNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1CDCF321FF503F00FD5495 /* Debug */,
+				EC1CDCF421FF503F00FD5495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1CDCF521FF503F00FD5495 /* Build configuration list for PBXNativeTarget "BeautifulGirlNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1CDCF621FF503F00FD5495 /* Debug */,
+				EC1CDCF721FF503F00FD5495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1CDCF821FF503F00FD5495 /* Build configuration list for PBXNativeTarget "BeautifulGirlNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1CDCF921FF503F00FD5495 /* Debug */,
+				EC1CDCFA21FF503F00FD5495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1CDCFB21FF503F00FD5495 /* Build configuration list for PBXNativeTarget "BeautifulGirlNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1CDCFC21FF503F00FD5495 /* Debug */,
+				EC1CDCFD21FF503F00FD5495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1CDCC521FF503D00FD5495 /* Project object */;
+}
